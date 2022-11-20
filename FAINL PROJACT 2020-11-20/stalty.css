@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: darkcyan;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px ;
+
+}
+.logo{
+
+    text-decoration: none;
+    color: rgb(17, 158, 158);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+.navigation a{
+    color:blue
+    text-decoration none;
+    font-size:  1.1em;
+    font-weight:  500;
+    padding-left:  30px;
+
+    
+
+}
+
+ 
+ 
+ 
+.navigation a:hover{
+    color:rgb(74, 9, 164);
+}
+
+section{
+
+    padding:    100px 200px;
+}
+.main{
+
+        width: 100%;
+        min-height: 100vh;
+        display:flex;
+        align-items: center;
+        background: url(imiage/صورة\ واتساب\ بتاريخ\ 2022-11-20\ في\ 23.15.53.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+ }
+ .main h2{
+    color: rgb(168, 0, 214);
+    font-size: 1.4em;
+    font-weight:500;
+ }
+ .main h3{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 600;
+
+ }
+ .main-btn{
+    color: bisque;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radivs: 15px;
+    margin-bottom: 40px;
+
+
+
+ }
+ .main-btn:hover{
+    background-color: rgb(8, 8, 105);
+    transform: scale(1.1) ;
+
+ }
